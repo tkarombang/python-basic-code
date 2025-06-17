@@ -256,6 +256,64 @@
 # 1
 
 
+# arr_list = [1,2,3]
+# for elemen in arr_list:
+#   print(id(elemen))
+
+# var_arr = [1, 2, 3, 4, 5, 6, 7, 8]
+# print(var_arr)
+# for element in var_arr:
+#   print(id(element))
+
+# dv_arr = [0 for i in range(10)]
+
+# for x in range(10):
+#   dv_arr[x] = x
+
+# print(dv_arr)
+
+# el_arr = [1, 2, 3, 4, 5, 6]
+# print(el_arr[2])
+
+# ind_arr = [1,2,3,4,5]
+# for i in range(len(ind_arr)):
+#   current_element = ind_arr[i]
+#   next_index = i+1
+
+#   if next_index < len(ind_arr):
+#     next_index = ind_arr[next_index]
+#   else:
+#     next_index = None
+  
+#   print(f"Current element: {current_element}, Next Element: {next_index}")
+
+
+# big_arr = [1, 7, 2, 89, 3]
+# left = big_arr[0]
+# for i in range(len(big_arr)):
+#   right = big_arr[i]
+#   if right > left:
+#     left = right
+# print(left)
+
+
+# ----EXERCISE
+
+
+# var_array = [i for i in range(101)]
+# result = var_array[0]
+# for x in range(len(var_array)):
+#   total = result + var_array[x]
+#   result = total
+# result /= len(var_array)
+
+# print(result)
+
+
+
+
+
+
 
 
 
