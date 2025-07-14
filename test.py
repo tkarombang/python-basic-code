@@ -311,13 +311,76 @@
 
 
 
+# ----MATRIKS----
+import sys
+import numpy
+
+
+# matriks = [[1,2,3],
+#            [4,5,6],
+#            [7,8,9]]
+
+# matr_nump = numpy.array([[1,2,3],[4,5,6],[7,8,9]])
+
+# print("ukuran el list dalam byte = ", sys.getsizeof(matriks)*len(matriks) )
+# print("ukuran el numpy dalam byte = ", matr_nump.size*matr_nump.itemsize)
+
+# matriks = [[1,0,0,0,0],
+#            [0,1,0,0,0],
+#            [0,0,1,0,0],
+#            [0,0,0,1,0],
+#            [0,0,0,0,1]]
+
+# print(matriks)
+
+# matriks = [[0 for j in range(4)] for i in range (3)]
+# print(matriks)
+
+# var_mat = [[1,2,3,4,5],
+#            [6,7,8,9,10],
+#            [11,12,13,14,15],
+#            [16,17,18,19,20],
+#            [21,22,23,24,25]]
+
+# print(var_mat[4][2])
 
 
 
 
+# var_mat = [[5,0],
+#           [1, -2]]
+# def_mat = [[0 for j in range(2)] for i in range(2)]
+
+# for i in range(len(var_mat)):
+#   for j in range(len(var_mat[0])):
+#     def_mat[i][j] = var_mat[i][j]*2
+
+# print(def_mat)
 
 
+# import numpy as np
+# var_mat = np.array([[5, 0],
+#            [1, -2]])
 
+# result = var_mat * 2
+
+# print(result)
+
+# panjang = 5
+# lebar = 10
+
+# luas_persegi_panjang = panjang * lebar
+# print(luas_persegi_panjang)
+
+# def mencari_luas_persegi(panjang, lebar):
+#   luas_persegi = panjang * lebar
+#   return luas_persegi
+
+# persegi_panjang_pertama = mencari_luas_persegi(10, 2)
+# print(persegi_panjang_pertama)
+
+# persegi_panjang_kedua = mencari_luas_persegi(29, 4)
+# print(persegi_panjang_kedua)
 
 
 
