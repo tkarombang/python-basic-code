@@ -384,24 +384,92 @@ import numpy
 
 
 
+# ---- CLASS --------
+# class Mobil:
+#   warna = "Merah"
+
+# mobil_1 = Mobil()
+# print(mobil_1.warna)
+
+# mobil_2 = Mobil()
+# print(mobil_2.warna)
+
+# Mobil.warna = "Hitam"
+
+# print(mobil_1.warna)
+# print(mobil_2.warna)
+
+# class Mobil:
+#   # ATRIBUT INSTANCE
+#   def __init__(self):
+#     self.warna = "Merah"
+    
+# mobil_1 = Mobil()
+# mobil_2 = Mobil()
+# # SEBELUM PERUBAHAN ATTRIBUT INSTANCE
+# print(mobil_1.warna)
+# print(mobil_2.warna)
+
+# mobil_1.warna = "Hitam"
+# # Mobil.warna = "Hitam";
+
+# # SESUDAH PERUBAHAN ATTRIBUT INSTANCE
+# print(mobil_1.warna)
+# print(mobil_2.warna)
+
+
+
+# class Sport_Car:
+#   def __init__(self, warna, merek, kecepatan):
+#     self.warna = warna
+#     self.merek = merek
+#     self.kecepatan = kecepatan
+
+# miniCoper = Sport_Car("White", "Mini Cooper", 400)
+# print(miniCoper.warna);
+# print(miniCoper.merek);
+# print(miniCoper.kecepatan);
 
 
 
 
 
+# Method
+# def my_decorator(func):
+#   def wrapper():
+#     print("sebelum fungsi dieksekusi")
+#     func()
+#     print("setelah fungsi dieksekusi")
+#   return wrapper
 
 
+# # Dekorasi fungsi dengan decorator
+# @my_decorator
+# def say_hello():
+#   print("Hello, world!")
+
+# # memanggil fungsi yang sudah didekorasi
+# say_hello()
+
+class Sport_car:
+  def __init__(self, warna, merek, kecepatan):
+    self.warna = warna
+    self.merek = merek
+    self.kecepatan = kecepatan
+    
+  def tambah_kecepatan(self):
+    self.kecepatan += 10
+
+ferrari = Sport_car("Merah", "Ferarri", 4000)
 
 
+print("Sebelum ditambahkan: ")
+print(ferrari.kecepatan)
 
 
-
-
-
-
-
-
-
+ferrari.tambah_kecepatan()
+print("sesudah ditambahkan")
+print(ferrari.kecepatan)
 
 
 
